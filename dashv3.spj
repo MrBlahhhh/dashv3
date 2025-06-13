@@ -496,7 +496,8 @@
                         "InheritedType": 11
                       }
                     ],
-                    "saved_objtypeKey": "IMAGE"
+                    "saved_objtypeKey": "IMAGE",
+                    "tree_closed": true
                   },
                   {
                     "guid": "GUID11515694-653465S3374161",
@@ -998,7 +999,8 @@
                     "InheritedType": 11
                   }
                 ],
-                "saved_objtypeKey": "PANEL"
+                "saved_objtypeKey": "PANEL",
+                "tree_closed": true
               },
               {
                 "guid": "GUID7212452-770686S489124161",
@@ -1131,7 +1133,6 @@
                   },
                   {
                     "nid": 1010,
-                    "flags": 1048576,
                     "strtype": "IMAGE/Image",
                     "InheritedType": 1
                   },
@@ -1170,16 +1171,15 @@
                         "strval": "DEFAULT",
                         "childs": [
                           {
-                            "nid": 11010,
-                            "strtype": "_style/Blend mode",
-                            "strval": "NORMAL",
-                            "InheritedType": 3
-                          },
-                          {
-                            "nid": 11020,
-                            "strtype": "_style/Blend_opacity",
-                            "integer": 120,
-                            "InheritedType": 6
+                            "nid": 11210,
+                            "strtype": "_style/Image_reColor",
+                            "intarray": [
+                              0,
+                              0,
+                              0,
+                              200
+                            ],
+                            "InheritedType": 7
                           }
                         ],
                         "InheritedType": 1
@@ -1233,6 +1233,7 @@
                   },
                   {
                     "nid": 40,
+                    "flags": 1048576,
                     "strtype": "OBJECT/Transform",
                     "InheritedType": 1
                   },
@@ -1363,21 +1364,15 @@
                         "strval": "DEFAULT",
                         "childs": [
                           {
-                            "nid": 10630,
-                            "strtype": "_style/Bg_Image_Recolor",
+                            "nid": 11210,
+                            "strtype": "_style/Image_reColor",
                             "intarray": [
-                              64,
-                              64,
-                              255,
-                              255
+                              0,
+                              0,
+                              0,
+                              200
                             ],
                             "InheritedType": 7
-                          },
-                          {
-                            "nid": 11020,
-                            "strtype": "_style/Blend_opacity",
-                            "integer": 75,
-                            "InheritedType": 6
                           }
                         ],
                         "InheritedType": 1
@@ -1560,10 +1555,15 @@
                         "strval": "DEFAULT",
                         "childs": [
                           {
-                            "nid": 11020,
-                            "strtype": "_style/Blend_opacity",
-                            "integer": 75,
-                            "InheritedType": 6
+                            "nid": 11210,
+                            "strtype": "_style/Image_reColor",
+                            "intarray": [
+                              0,
+                              0,
+                              0,
+                              200
+                            ],
+                            "InheritedType": 7
                           }
                         ],
                         "InheritedType": 1
@@ -1746,10 +1746,15 @@
                         "strval": "DEFAULT",
                         "childs": [
                           {
-                            "nid": 11020,
-                            "strtype": "_style/Blend_opacity",
-                            "integer": 75,
-                            "InheritedType": 6
+                            "nid": 11210,
+                            "strtype": "_style/Image_reColor",
+                            "intarray": [
+                              0,
+                              0,
+                              0,
+                              200
+                            ],
+                            "InheritedType": 7
                           }
                         ],
                         "InheritedType": 1
@@ -2685,7 +2690,7 @@
     "uiExportFolderPath": "C:\\Users\\mrblah\\Documents\\PlatformIO\\Projects\\Waveshare-ESP32-S3-Touch-LCD-4.3-main\\lib\\ui\\src",
     "projectExportFolderPath": "C:\\Users\\mrblah\\Documents\\PlatformIO\\Projects\\Waveshare-ESP32-S3-Touch-LCD-4.3-main",
     "custom_variable_prefix": "uic",
-    "backup_cnt": 24,
+    "backup_cnt": 32,
     "autosave_cnt": 0,
     "group_color_cnt": 0,
     "lvgl_version": "8.3.6",
