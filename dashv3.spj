@@ -1170,9 +1170,15 @@
                         "strval": "DEFAULT",
                         "childs": [
                           {
+                            "nid": 11010,
+                            "strtype": "_style/Blend mode",
+                            "strval": "NORMAL",
+                            "InheritedType": 3
+                          },
+                          {
                             "nid": 11020,
                             "strtype": "_style/Blend_opacity",
-                            "integer": 75,
+                            "integer": 120,
                             "InheritedType": 6
                           }
                         ],
@@ -2676,10 +2682,10 @@
     "theme_dark": false,
     "theme_color1": 5,
     "theme_color2": 0,
-    "uiExportFolderPath": "/home/matt/Documents/PlatformIO/Projects/Waveshare-ESP32-S3-Touch-LCD-4.3-main/lib/ui/src",
-    "projectExportFolderPath": "/home/matt/Documents/PlatformIO/Projects/Waveshare-ESP32-S3-Touch-LCD-4.3-main",
+    "uiExportFolderPath": "C:\\Users\\mrblah\\Documents\\PlatformIO\\Projects\\Waveshare-ESP32-S3-Touch-LCD-4.3-main\\lib\\ui\\src",
+    "projectExportFolderPath": "C:\\Users\\mrblah\\Documents\\PlatformIO\\Projects\\Waveshare-ESP32-S3-Touch-LCD-4.3-main",
     "custom_variable_prefix": "uic",
-    "backup_cnt": 23,
+    "backup_cnt": 24,
     "autosave_cnt": 0,
     "group_color_cnt": 0,
     "lvgl_version": "8.3.6",
